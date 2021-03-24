@@ -4,8 +4,8 @@ on:
   pull_request:
     types: [closed]
     branches:
+      - main
       - new
-      - master
 
 jobs:
   closeIssueOnPrMergeTrigger:
